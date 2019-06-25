@@ -1,6 +1,6 @@
-- name: Hello World Sample
+- name: prueba api
   hosts: all
   tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello World!"
+    - name: conectando a cisco teams
+        uri:
+          url: http://www.example.com
