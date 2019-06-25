@@ -2,5 +2,5 @@
   hosts: all
   tasks:
     - name: conectando a cisco teams
-        uri:
-          url: http://www.example.com
+      uri:
+        url: http://www.example.com
