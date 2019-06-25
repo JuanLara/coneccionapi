@@ -4,7 +4,7 @@
     - name: conectando a cisco teams
       uri:
         url: https://api.ciscospark.com/v1/messages
-        body: "{{ lookup('file','archiv') }}"
+        body: "{{ lookup('file','archivo') }}"
         body_format: json
         headers:
           Authorization: Bearer NmY0MjE2MTEtOTM4MS00Y2I0LTg1MWQtNjkyYmVlYTQ4NDdkMGI2YTE5N2MtYzY3_PF84_4c5c26ff-35c7-4c96-a27c-02cd36a044b9
