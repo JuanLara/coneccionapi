@@ -4,5 +4,5 @@
     - name: conectando a cisco teams
       uri:
         url: https://api.ciscospark.com/v1/messages
-        body: "{{"roomId": "37804f54-82e7-3257-95c4-c9296124918a",  "text": "prueba"}}"
+        body: "{"roomId": "37804f54-82e7-3257-95c4-c9296124918a", "text": "prueba"}"
         body_format: json
