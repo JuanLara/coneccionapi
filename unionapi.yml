@@ -4,6 +4,7 @@
     - name: conectando a cisco teams
       uri:
         url: https://api.ciscospark.com/v1/messages
+        method: POST
         body: "{{ lookup('file','archivo') }}"
         body_format: json
         headers:
