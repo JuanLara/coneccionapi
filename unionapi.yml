@@ -4,6 +4,9 @@
     - name: conectando a cisco teams
       uri:
         url: https://api.ciscospark.com/v1/messages
-        body: {"roomId": "37804f54-82e7-3257-95c4-c9296124918a", "text": "prueba" }
+        body_format: form-urlencoded
+        body: 
+        - [ roomId, 37804f54-82e7-3257-95c4-c9296124918a ]
+        - [ text, prueba ]
         headers:
           Authorization: Bearer NmY0MjE2MTEtOTM4MS00Y2I0LTg1MWQtNjkyYmVlYTQ4NDdkMGI2YTE5N2MtYzY3_PF84_4c5c26ff-35c7-4c96-a27c-02cd36a044b9
